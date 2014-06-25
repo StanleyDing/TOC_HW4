@@ -1,5 +1,15 @@
 // Name: 丁士宸
 // Student ID: F74001014
+/*
+ * Description:
+ * This program reads real-price housing information from the given URL as input.
+ * The output is the maximum/minimum price of a road which has maximum distinct 
+ * month from the trading records.
+ *
+ * This program maintains a hashmap which maps road name to its attributes. The
+ * attributes includes its maximum/minimum price and its distinct months. Distinct
+ * months is stored as a set. The attribute is defined at RoadAttr.java.
+ */
 import java.net.*;
 import java.io.*;
 import java.lang.Math;
